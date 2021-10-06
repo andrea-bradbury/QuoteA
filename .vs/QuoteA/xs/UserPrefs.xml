@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{E2ACC9B0-F9F6-4AB2-A9A7-FEB319BC5BFC}|Default">
+  <MonoDevelop.Ide.ItemProperties.QuoteA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CBCE2CBB-D4DD-4F57-8CA7-0398CA040494" />
+  <MonoDevelop.Ide.ItemProperties.QuoteA.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuoteA/InputOutput.cs">
+    <Files>
+      <File FileName="QuoteA/MainPage.xaml" Line="25" Column="230" />
+      <File FileName="QuoteA/MainPage.xaml.cs" Line="29" Column="1" />
+      <File FileName="QuoteA/Model/Quotes.cs" Line="42" Column="9" />
+      <File FileName="QuoteA/InputOutput.cs" Line="86" Column="32" />
+      <File FileName="QuoteA/App.xaml.cs" Line="39" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuoteA" expanded="True">
+            <Node name="QuoteA" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="InputOutput.cs" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="QuoteA.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

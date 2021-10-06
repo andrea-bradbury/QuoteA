@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "VkUu6YO5waAtkk0+vZ+H+0ATNc2tnCLE0D3qUzSMO167+819EBXwFo6pR6qKD8NDJ/VHliC+h1i/9mniHixUCg==",
+  "success": true,
+  "projectFilePath": "/Users/andreabradbury/Projects/QuoteA/QuoteA.iOS/QuoteA.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/andreabradbury/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/pclstorage/1.0.2/pclstorage.1.0.2.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
