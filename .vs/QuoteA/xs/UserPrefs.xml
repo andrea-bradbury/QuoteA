@@ -4,7 +4,7 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="QuoteA/MainPage.xaml" Line="24" Column="58" />
-      <File FileName="QuoteA/MainPage.xaml.cs" Line="72" Column="57" />
+      <File FileName="QuoteA/MainPage.xaml.cs" Line="77" Column="1" />
       <File FileName="QuoteA/Model/Quotes.cs" Line="20" Column="43" />
       <File FileName="QuoteA/InputOutput.cs" Line="59" Column="1" />
       <File FileName="QuoteA/App.xaml.cs" Line="32" Column="13" />

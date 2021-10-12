@@ -74,6 +74,7 @@ namespace QuoteA
 
             labelQuoteText.Text = quote.Saying;
 
+
             labelQuoteAuthor.Text = quote.Author;
 
 
