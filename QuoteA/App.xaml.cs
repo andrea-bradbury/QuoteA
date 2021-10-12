@@ -21,18 +21,21 @@ namespace QuoteA
 
             MainPage = new MainPage();
 
-            InputOutput.Load();
+           
         }
 
-        protected override async void OnStart()
+        protected override void OnStart()
         {
             //Try open the file of Quotes and save contents to objects
+
+            inputOutput.readFromFile();
             
 
+            
         }
 
 
-        protected override async void OnSleep()
+        protected override void OnSleep()
         {
             //Save all Quote objects back to file
 

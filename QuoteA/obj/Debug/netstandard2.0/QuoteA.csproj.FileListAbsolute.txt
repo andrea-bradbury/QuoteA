@@ -4,3 +4,12 @@
 /Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.AssemblyInfoInputs.cache
 /Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.AssemblyInfo.cs
 /Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.csproj.CoreCompileInputs.cache
+/Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.csproj.AssemblyReference.cache
+/Users/andreabradbury/Projects/QuoteA/QuoteA/bin/Debug/netstandard2.0/QuoteA.deps.json
+/Users/andreabradbury/Projects/QuoteA/QuoteA/bin/Debug/netstandard2.0/QuoteA.dll
+/Users/andreabradbury/Projects/QuoteA/QuoteA/bin/Debug/netstandard2.0/ref/QuoteA.dll
+/Users/andreabradbury/Projects/QuoteA/QuoteA/bin/Debug/netstandard2.0/QuoteA.pdb
+/Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.dll
+/Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/ref/QuoteA.dll
+/Users/andreabradbury/Projects/QuoteA/QuoteA/obj/Debug/netstandard2.0/QuoteA.pdb

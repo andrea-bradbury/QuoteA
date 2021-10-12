@@ -20,8 +20,8 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Label x:Name="labelQuoteText" Text="Three things cannot be long hidden: the sun, the moon, and the truth." FontSize="Large" TextColor="#FE9F1F " Grid.Row="0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
-                <Label x:Name="labelQuoteAuthor" Text="- Buddha" FontSize="Medium" TextColor="#FE9F1F " Grid.Row="1" HorizontalOptions="CenterAndExpand"  />
+                <Label x:Name="labelQuoteText" Text=" " FontSize="Large" TextColor="#FE9F1F " Grid.Row="0" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="labelQuoteAuthor" Text="-" FontSize="Medium" TextColor="#FE9F1F " Grid.Row="1" HorizontalOptions="CenterAndExpand"  />
                 <Button x:Name="buttonRandomGenerate" Text="GET A QUOTE" TextColor="White"  BackgroundColor="#FE9F1F" BorderColor="#FF5733"  FontSize="Body" Grid.Row="2" Padding="30,20,30,20" Clicked="buttonRandomGenerate_Clicked" > </Button>
         
             </Grid>

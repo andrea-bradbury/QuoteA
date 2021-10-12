@@ -20,6 +20,7 @@ namespace QuoteA
         InputOutput inputOutput;
 
 
+
         public MainPage()
         {
             
@@ -29,7 +30,11 @@ namespace QuoteA
 
             inputOutput = app.inputOutput;
 
+            
+
         }
+
+        
 
 
         ///Take the quote and author input and create Quotes object.
@@ -41,17 +46,19 @@ namespace QuoteA
 
             string authorInput = entryAuthor.Text;
 
-           
+
             Quotes Model = new Quotes(quoteInput, authorInput);
 
 
-            Model.AddToList(Model);
+            inputOutput.AddToList(Model);
 
 
             DisplayAlert($"{Model.Saying}, {Model.Author}", "This quote has been added.", "OK");
 
 
-            //Need to add in clears for the entry fields 
+            //Need to add in clears for the entry fields
+
+            
 
 
         }
@@ -62,15 +69,17 @@ namespace QuoteA
         void buttonRandomGenerate_Clicked(System.Object sender, System.EventArgs e)
         {
 
-            Quotes Model = new Quotes(entryQuote.Text, entryAuthor.Text);
+            Quotes quote = inputOutput.GetRandomQuote();
 
 
-            labelQuoteText.Text = Model.GetRandomQuote().Saying;
+            labelQuoteText.Text = quote.Saying;
 
-            labelQuoteAuthor.Text = Model.GetRandomQuote().Author;
+            labelQuoteAuthor.Text = quote.Author;
 
 
         }
+
+        
 
 
 

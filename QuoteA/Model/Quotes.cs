@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace QuoteA.Model
 {
     /// <summary>
-    /// This class deals only with creating Quote objects from the JSON file
+    /// This class deals only with creating Quote objects.
     /// </summary>
 
     public class Quotes

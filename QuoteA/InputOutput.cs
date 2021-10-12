@@ -12,9 +12,9 @@ namespace QuoteA
 
     /// <summary>
     /// This class actually should be called something more useful! It manages all use of the Quotes objects.
-    /// It collected the list of Quotes objects
+    /// It collects the list of Quotes objects
     /// Generated a random Quotes object from the list
-    /// And alsoi handles reading and writing to json files.
+    /// And also handles reading and writing to json files.
     /// </summary>
 
 
@@ -36,10 +36,16 @@ namespace QuoteA
 
 
 
-        ///Takes input of a Quote object and adds to a list. This list then will be given to the IO class to be saved as file.
+        ///Takes input of a Quote object and adds to a list.
+        
         public void AddToList(Quotes quoteObject)
         {
+
+            //Add quote to list
             listOfQuoteObjects.Add(quoteObject);
+
+            Console.WriteLine("Checking adding to list function");
+
 
         }
 
@@ -48,10 +54,16 @@ namespace QuoteA
         
         public Quotes GetRandomQuote()
         {
+            Console.WriteLine("Checking making it to random function");
 
             Random rnd = new Random();
 
-            Quotes randomQuote = listOfQuoteObjects[rnd.Next()];
+            Console.WriteLine("Checking making random object");
+
+
+            Quotes randomQuote = listOfQuoteObjects[rnd.Next(0,listOfQuoteObjects.Count)];
+
+            Console.WriteLine("Checking random quote object is being picked from list" + randomQuote.ToString());
 
 
             return randomQuote;
@@ -84,15 +96,19 @@ namespace QuoteA
 
                 
                 //Write to file
+
                 await file.WriteAllTextAsync(jsonFile);
 
 
+          
 
                 return true;
+
             }
             catch 
             {
                 ///Needs a directory not found exception
+                
                 return false;
             }
             
@@ -109,28 +125,38 @@ namespace QuoteA
             try
             {
 
+                //Open or create a folder
+
                 IFolder folder = FileSystem.Current.LocalStorage;
 
-
-                //Open or create a folder 
-
                 folder = await folder.CreateFolderAsync(folderName, CreationCollisionOption.OpenIfExists);
+
+                Console.WriteLine("Checking open or create the folder");
+
 
 
                 //Open file
 
                 IFile file = await folder.CreateFileAsync(fileName, CreationCollisionOption.OpenIfExists);
 
+                Console.WriteLine("Checking open or create the file");
+
+
 
                 //Gets content from file
 
                 string loadedContent = await file.ReadAllTextAsync();
 
+                Console.WriteLine("Checking loaded content");
+
 
                 //Turns file content into Quotes objects and puts them in list
                 listOfQuoteObjects = JsonConvert.DeserializeObject<List<Model.Quotes>>(loadedContent);
 
-               
+                Console.WriteLine("Checking deserialising into objects");
+
+                Console.WriteLine(listOfQuoteObjects[0].ToString());
+
 
                 return true;
             }
